@@ -2,7 +2,7 @@
 
 int main() {
     char x;
-    scanf("%d", &x);
+    scanf("%c", &x);
     switch(x){
         case 'R':printf("Stop");break;
         case 'G':printf("Go");break;
