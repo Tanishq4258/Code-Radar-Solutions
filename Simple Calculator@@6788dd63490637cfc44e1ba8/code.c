@@ -7,7 +7,7 @@ int main() {
     switch(o){
         case '+': printf("%d", x+y); break;
         case '-': printf("%d", x-y); break;
-        case '*': printf("%d", x8y); break;
+        case '*': printf("%d", x*y); break;
         case '/': printf("%d", x/y); break;
         default: printf("error");
     }
