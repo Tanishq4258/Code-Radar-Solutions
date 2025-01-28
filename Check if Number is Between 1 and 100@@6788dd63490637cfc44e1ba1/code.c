@@ -7,7 +7,7 @@ int main() {
         printf("In Range");
     }
     else{
-        printf("Out of Rabge");
+        printf("Out of Range");
     }
     return 0;
 }
