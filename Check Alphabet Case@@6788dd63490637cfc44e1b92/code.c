@@ -9,5 +9,8 @@ int main() {
     else if(x>='A' && x<='Z'){
         printf("Uppercase");
     }
+    else{
+        printf("Not an alphabet");
+    }
     return 0;
 }
