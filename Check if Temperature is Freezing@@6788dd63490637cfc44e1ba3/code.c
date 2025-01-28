@@ -2,7 +2,7 @@
 
 int main() {
     int x;
-    scanf("5d", &x);
+    scanf("%d", &x);
     if(x>0){
         printf("Above Freezing");
     }
