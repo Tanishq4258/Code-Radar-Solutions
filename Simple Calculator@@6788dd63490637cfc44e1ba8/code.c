@@ -8,7 +8,13 @@ int main() {
         case '+': printf("%d", x+y); break;
         case '-': printf("%d", x-y); break;
         case '*': printf("%d", x*y); break;
-        case '/': printf("%d", x/y); break;
+        case '/': if(y!=0){
+            printf("d",x/y);
+        }
+        else{
+            printf("error");
+        }
+        break;
         default: printf("error");
     }
     return 0;
