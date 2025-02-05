@@ -4,8 +4,8 @@ int main() {
     int x;
     scanf("%d", &x);
     int i = 32;
-    int marks = 1<<i-1
-if(x & marks){
+    int mask = 1<<i-1;
+if(x & mask){
     printf("Set\n");
 }
 else{
