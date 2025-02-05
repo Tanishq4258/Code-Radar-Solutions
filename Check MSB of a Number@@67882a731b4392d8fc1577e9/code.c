@@ -3,8 +3,9 @@
 int main() {
     int x;
     scanf("%d", &x);
-
-if(x&(1<<31)){
+    int i = 32;
+    int marks = 1<<i-1
+if(x & marks){
     printf("Set\n");
 }
 else{
