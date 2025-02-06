@@ -10,8 +10,9 @@ int main(){
        for(k=1; k<=2*i-1; k++){
         printf("*");
        }
-       for(l=0; l<=2*(n-i)-2; l++){
-        printf(" ");
-       }
+    //    for(l=0; l<=2*(n-i)-2; l++){
+    //     printf(" ");
+    //    }
     }
+    
 }
