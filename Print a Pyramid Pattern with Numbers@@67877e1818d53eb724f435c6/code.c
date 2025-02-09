@@ -10,5 +10,6 @@ int main(){
         for(k=1; k<=i; k++){
             printf("%d", j);
         }
+        printf("\n");
     }
 }
