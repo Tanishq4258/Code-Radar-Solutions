@@ -5,8 +5,9 @@ int main(){
     int `x = 1;
     scanf("%d", &N);
     for(i=0, i<=N; i++){
-        for(j=0; j<=i, j++){
-            printf("%d ", x++);
+        for(j=0; j<=i, ++j){
+            printf("%d ", x);
+            ++x;
         }
         printf("\n");
     }
