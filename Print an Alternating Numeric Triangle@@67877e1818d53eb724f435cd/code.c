@@ -5,8 +5,14 @@ int main(){
     scanf("%d", &N);
     for(i=1;i<=N;i++){
         for(j=1; j<=i; j++){
-            printf("x");
+            if(i%2==0 && j%2==0 || i%2==1 && j%2==1){
+                printf("1 ");
+            }    
+            else{
+                printf("0 ")
+            }
         }
         pritnf("\n");
     }
+
 }
