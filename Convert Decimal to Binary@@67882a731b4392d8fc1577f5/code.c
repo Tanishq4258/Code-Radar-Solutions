@@ -1,7 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int x,b=0,p=1;
+    int x,p=1;
+    long b=0;
     scanf("%d", &x);
     while(x>0){
         b += (x%2) * p;
