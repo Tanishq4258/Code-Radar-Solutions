@@ -6,7 +6,7 @@ int main(){
     while(x>0){
         b += x%2 * p;
         p *= 10;
-        x /= 2
+        x /= 2;
     }
     printf("%d", b);
 
