@@ -11,6 +11,5 @@ int factorialRange(int start, int end){
             }
             printf("%d\n", fact);
         }
-        // return printf("%d", fact);
     }
 }
