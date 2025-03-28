@@ -4,7 +4,7 @@ int factorialRange(int start, int end){
         return 1;
     }
     else{
-        for(i=start; i<=end; i++){
+        for(int i=start; i<=end; i++){
             fact=1;
             fact *= i;
         }
