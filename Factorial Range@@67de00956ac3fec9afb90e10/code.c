@@ -1,16 +1,13 @@
 // Your code here...
 int factorialRange(int start, int end){
-    if ((start==0 && end==0) || start==1 || end==1){
-        return printf("1");
+    if (start>end || start<0 || end<0){
+        printf("Invalid range\n");
     }
     else{
-        int fact=1;
         for(int i=start; i<=end+1; i++){
-            if(i!=0){
-                fact *= i;
-            }
-            else{
-                fact*=i+1
+            int fact=1;
+            for(int j; j<=i; j++){
+                fact*=j;
             }
             printf("%d\n", fact);
         }
