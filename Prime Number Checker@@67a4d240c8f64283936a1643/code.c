@@ -1,5 +1,5 @@
 // Your code here...
-isPrime(num){
+isPrime(int num){
     if(num>0){
         if(num==0 || num==1){
             return 0;
