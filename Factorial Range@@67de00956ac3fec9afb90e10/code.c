@@ -1,7 +1,7 @@
 // Your code here...
 int factorialRange(int start, int end){
     if ((start==0 && end==0) || start==1 || end==1){
-        return 1;
+        return printf("1");
     }
     else{
         int fact;
@@ -9,12 +9,6 @@ int factorialRange(int start, int end){
             fact=1;
             fact *= i;
         }
-        return fact;
+        return printf("%d", fact);
     }
-}
-int main(){
-    int start, end;
-    scanf("%d %d", &start, &end);
-    factorialRange(start,end);
-    return 0;
 }
