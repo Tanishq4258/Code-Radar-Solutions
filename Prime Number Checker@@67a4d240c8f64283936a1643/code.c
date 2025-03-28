@@ -1,5 +1,5 @@
 // Your code here...
-isPrime(int num){
+int isPrime(int num){
     if(num>0){
         if(num==0 || num==1){
             return 0;
@@ -10,7 +10,7 @@ isPrime(int num){
                     return printf("0");
                 }
                 else{
-                    printf("1");
+                    return printf("1");
                 }
             }
         }
