@@ -1,7 +1,7 @@
 // Your code here...
 int isPrime(int num){
     if(num>0){
-        if(num==0 || num==1){
+        if(num<2){
             return 0;
         }
         else{
