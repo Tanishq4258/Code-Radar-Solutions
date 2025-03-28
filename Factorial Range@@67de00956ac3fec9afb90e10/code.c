@@ -4,9 +4,14 @@ int factorialRange(int start, int end){
         return printf("1");
     }
     else{
-        int fact;
-        for(int i=start; i<=end; i++){
-            fact *= i;
+        int fact=1;
+        for(int i=start; i<=end+1; i++){
+            if(i!=0){
+                fact *= i;
+            }
+            else{
+                fact*=i+1
+            }
             printf("%d\n", fact);
         }
         // return printf("%d", fact);
